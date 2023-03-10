@@ -12,11 +12,11 @@ public class practice {
         practice.getAlphaNumericString();
         System.out.println("starting test");
         practice.getAlphaNumericString();
-        System.out.println("--------------------------");
+        System.out.println("------------******--------------");
         System.out.println("1 st: "+genString);
-        System.out.println("--------------------------");
+        System.out.println("-------------******-------------");
         System.out.println("2 nd: "+genString);
-        System.out.println("--------------------------");
+        System.out.println("-------------******-------------");
 
 
     }
