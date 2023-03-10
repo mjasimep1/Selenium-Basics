@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/artdsktp44user/IdeaProjects/OrangeHRM">
+        <classes>
+            <class name="Test.AlertHandle">
+                <methods>
+                    <include name="alert"/>
+                </methods>
+            </class>
+            <class name="Test.CheckBoxes">
+                <methods>
+                    <include name="checkBox"/>
+                </methods>
+            </class>
+            <class name="Test.DatePicker">
+                <methods>
+                    <include name="datePicker"/>
+                </methods>
+            </class>
+            <class name="Test.DropDownWithHiddenOptions">
+                <methods>
+                    <include name="dropDown"/>
+                </methods>
+            </class>
+            <class name="Test.Dropdowns">
+                <methods>
+                    <include name="dropDownWithSelectTag"/>
+                    <include name="dropDownWithoutSelectTag"/>
+                    <include name="dropDownAutoSuggest"/>
+                </methods>
+            </class>
+            <class name="Test.FindSmallestNoTable">
+                <methods>
+                    <include name="smallestNo"/>
+                </methods>
+            </class>
+            <class name="Test.JavaScriptExec">
+                <methods>
+                    <include name="javaScriptExecutor"/>
+                </methods>
+            </class>
+            <class name="Test.KeyboardActions">
+                <methods>
+                    <include name="keyboardAct"/>
+                </methods>
+            </class>
+            <class name="Test.LoginTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="Test.MouseActions">
+                <methods>
+                    <include name="mouseAct"/>
+                </methods>
+            </class>
+            <class name="Test.PaginationTable">
+                <methods>
+                    <include name="dynamicTable"/>
+                </methods>
+            </class>
+            <class name="Test.TableHandle">
+                <methods>
+                    <include name="HtmlTable"/>
+                </methods>
+            </class>
+            <class name="Test.WindowHandles">
+                <methods>
+                    <include name="windowHandle"/>
+                </methods>
+            </class>
+            <class name="Test.iFrames">
+                <methods>
+                    <include name="iFramesHandle"/>
+                </methods>
+            </class>
+            <class name="Test.samp">
+                <methods>
+                    <include name="dynam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
